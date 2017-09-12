@@ -5,7 +5,7 @@ It is used to associate meta data to specific files, so that it is much easier t
 
 A config file will be safed in ```~/.tagger/default.json``` by default. 
 
-The currently available usage looks like this (there are subparsers!):
+The currently available usage looks like this:
 
 
 ```$ tag.py -h```
@@ -26,7 +26,7 @@ optional arguments:
 
 ```
 
-```$ tag.py add -h```
+```$ tag.py add -h``` (one of the subparsers)
 ```
 python3 tag.py add -h
 usage: tag.py add [-h] [-t TAG [TAG ...]] ADD
